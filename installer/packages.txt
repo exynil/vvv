@@ -1,187 +1,196 @@
-xorg-server
-xorg-xinit
-xorg-xbacklight
-xorg-xrandr
-xorg-xev
-xorg-xinput
-xorg-xkill
-firefox
-telegram-desktop-bin
-visual-studio-code-bin
-neofetch                                                    -> для красоты
-htop                                                        -> диспетчер задач
-numlockx                                                    -> для управления Num Lock
-flameshot                                                   -> скриншотилка
-gnome-calculator                                            -> гномовский калькулятор
-transmission-gtk                                            -> торрент
-tree                                                        -> для древовидного отображения папок в терминале
-mdbook                                                      -> создание базы знаний
-pipes.sh                                                    -> для красоты
-unimatrix-git
-xautolock
-kcolorchooser
-zip
-unzip
-postman-bin
-libinput-gestures
-mlocate
-physlock                                                    -> локер
-pass
-openssh
-arc-gtk-theme-git
-papirus-icon-theme-git
-dunst
-rsync
-bat                                                         -> альтернатива cat
-tty-clock-git
-imagemagick
-slop
-mpv
-youtube-dl
-screenkey
-network-manager-applet
-networkmanager
-imv
-upower
-wget
-ncdu
-pfetch
-trash-cli
-xsel
-xclip
-translate-shell
-vsftpd
-downgrade
-xterm
-jq
-libnotify
-gnu-netcat
-udiskie                         - для автомонтирования устройст
-picard                                                      - Не ебу что это
-hsetroot
-man-db
-man-pages
-xpad
-picom
-xdotool
-clipit
-nmap
-ntfs-3g                         - для поддержки файловой системы ntfs
-httpie
-socat                           - для mptctl
-gource                          - для визуализации git
-piper                           - для настройки мышки Logitech
-arandr
-alacritty
-steam
-python-pip
-sct                             - для настройки теплого цвета
-cloc                            - выводит инфу о коде
-linux-wifi-hotspot              - создает точку доступа
-hdparm                          - позволяет измерять скорость чтения с ssd/hdd
-android-tools                   - для каких-то манипуляций с андроид
-x2x-git                         - виртуальный KVM
-gnome-disk-utility              - измерение скорости SSD/HDD
-resp-app                        - GUI для redis (redis desktop manager)
+# Xorg и Управление Экраном
+xorg-server                     - Сервер отображения Xorg
+xorg-xinit                      - Инициализация Xorg
+xorg-xbacklight                 - Регулировка яркости экрана
+xorg-xrandr                     - Расширение X для изменения размеров, поворота и отражения экрана
+xorg-xev                        - Тестер событий X
+xorg-xinput                     - Расширение ввода X
+xorg-xkill                      - Завершение клиентов в сеансе X
+
+# Браузеры и Связь
+firefox                         - Веб-браузер
+telegram-desktop-bin            - Десктоп-клиент Telegram
+
+# Инструменты разработки
+visual-studio-code-bin          - Редактор кода
+neofetch                        - Информация о системе в терминале
+htop                            - Интерактивный просмотр процессов
+numlockx                        - Управление состоянием Num Lock
+flameshot                       - Утилита для снятия скриншотов
+gnome-calculator                - Калькулятор GNOME
+transmission-gtk                - Клиент BitTorrent
+tree                            - Отображение структуры каталогов
+mdbook                          - Создание и поддержка документации в формате книги
+pipes.sh                        - Анимированные "трубы" в терминале
+unimatrix-git                   - Терминал, вдохновленный "Матрицей"
+xautolock                       - Автоматическая блокировка экрана
+kcolorchooser                   - Пипетка для выбора цвета
+
+postman-bin                     - Инструмент для разработки API
+libinput-gestures               - Настройка жестов тачпада
+mlocate                         - Поиск файлов
+physlock                        - Блокировка экрана
+pass                            - Менеджер паролей
+openssh                         - OpenSSH для безопасной сетевой связи
+arc-gtk-theme-git               - Тема оформления GTK
+papirus-icon-theme-git          - Тема иконок
+dunst                           - Демон уведомлений
+rsync                           - Утилита синхронизации файлов
+bat                             - Клон команды cat с подсветкой синтаксиса
+tty-clock-git                   - Цифровые часы в терминале
+imagemagick                     - Инструменты манипуляции изображениями
+slop                            - Инструмент выбора области экрана
+mpv                             - Мультимедийный проигрыватель
+youtube-dl                      - Загрузка видео с YouTube и других сайтов
+screenkey                       - Отображение нажатых клавиш
+network-manager-applet          - GNOME-апплет для управления сетью
+networkmanager                  - Инструмент управления сетью
+imv                             - Просмотрщик изображений
+upower                          - Инструмент управления питанием
+wget                            - Командная строка для загрузки файлов
+ncdu                            - Анализ использования диска
+pfetch                          - Информация о системе в ASCII-графике
+trash-cli                       - Командная строка для управления корзиной
+xsel                            - Клипборд для командной строки
+xclip                           - Интерфейс командной строки для выбора X
+translate-shell                 - Переводчик в командной строке
+vsftpd                          - FTP-сервер
+downgrade                       - Откат пакетов Arch Linux
+xterm                           - Терминал
+jq                              - Обработка JSON в командной строке
+libnotify                       - Уведомления на рабочем столе
+gnu-netcat                      - Сетевая утилита
+udiskie                         - Автоматическое монтирование съемных устройств
+picard                          - Редактор тегов для музыки
+hsetroot                        - Установка фонового изображения
+man-db                          - Просмотр страниц руководства
+man-pages                       - Руководства по Linux
+xpad                            - Липкая записная книжка
+picom                           - Композитор для X
+xdotool                         - Инструмент автоматизации командной строки
+clipit                          - Менеджер буфера обмена
+nmap                            - Утилита для исследования сети
+ntfs-3g                         - Поддержка файловой системы NTFS
+httpie                          - HTTP-клиент
+socat                           - Утилита для передачи данных
+gource                          - Визуализация системы контроля версий Git
+piper                           - GUI для настройки мыши Logitech
+arandr                          - Редактор раскладки экрана
+alacritty                       - Терминал с ускорением GPU
+steam                           - Игровая платформа
+python-pip                      - Менеджер пакетов для Python
+sct                             - Настройка цветовой температуры экрана
+cloc                            - Подсчет строк кода
+linux-wifi-hotspot              - Создание точки доступа Wi-Fi
+hdparm                          - Измерение скорости чтения с SSD/HDD
+android-tools                   - Инструменты для манипуляций с Android
+x2x-git                         - Виртуальный KVM
+gnome-disk-utility              - Утилита дисков GNOME
+resp-app                        - GUI для Redis (Redis Desktop Manager)
 testdisk                        - Утилита для восстановления файлов
 anki-bin                        - Система интервального обучения
-net-tools                       - Для работы с сетью
-shotcut                         - Для редактирования видео
-wireshark-git                   - для анализа трафика
-bind                            - для утилиты host
+net-tools                       - Набор инструментов для работы с сетью
+shotcut                         - Программа для редактирования видео
+# wireshark-git                   - Инструмент для анализа сетевого трафика
+bind                            - Утилита для утилиты host
+yarn                            - Пакетный менеджер для JavaScript
 
 
-wps-office
+wps-office                      - Офисный пакет
 ttf-wps-fonts                   -> wps-office
 ttf-ms-fonts                    -> wps-office
-#wps-office-fonts               -> wps-office
 
-yarn
+bspwm                           - Оконный менеджер Binary Space Partitioning
+dxhd-git                        -> Динамический менеджер горячих клавиш для bspwm
+xorg-xsetroot                   -> bspwm (Нужно для того чтобы сделать курсор нормальным)
 
-bspwm
-dxhd-git                        -> bspwm
-xorg-xsetroot                   -> bspwm
+# Управление Docker-контейнерами
+docker                          - Платформа для контейнеризации
+docker-compose                  - Определение и запуск многоконтейнерных приложений Docker
 
+# Просмотр PDF-документов
+zathura                         - Легковесный просмотрщик PDF
+zathura-pdf-poppler             -> zathura Поддержка PDF для Zathura
 
-#sqlitestudio                    - для работы с базой sqlite
-#sqlitestudio-plugins            -> sqlitestudio
-
-
-#gnome-keyring                   - для хранения авторизации Live Share в VSCode
-#seahorse                        -> gnome-keyring
-
-docker
-docker-compose                  -> docker
-
-zathura
-zathura-pdf-poppler             -> zathura
-
-mpd
+# Музыкальные приложения
+mpd                             - Музыкальный проигрыватель
 ncmpcpp                         -> mpd
 mpc                             -> mpd
 
 hardinfo                        - информация об устройстве
 dmidecode                       - дополнение для получения информации об ОЗУ
 
-ranger
-ueberzugpp                      -> ranger
-atool                           -> ranger
-unrar                           -> ranger
-mediainfo                       -> ranger
-highlight                       -> ranger
-ffmpegthumbnailer               -> ranger
+# Файловые менеджеры
+ranger                          - Терминальный файловый менеджер
+ueberzugpp                      -> [ranger] Библиотека для отображения изображений в терминале
+atool                           -> [ranger] Утилита для архивации файлов
+unrar                           -> [ranger] Утилита для распаковки RAR-архивов
+mediainfo                       -> [ranger] Информация о мультимедийных файлах
+highlight                       -> [ranger] Подсветка кода для ranger
+ffmpegthumbnailer               -> [ranger] Генерация видеопревью для ranger
+zip                             -> [ranger] Утилита для сжатия файлов
+unzip                           -> [ranger] Утилита для распаковки файлов
 
-thunar
-gvfs-mtp                        -> thunar - для автомонтирования
-tumbler                         -> thunar - для создания превью у изображений
+# Файловые менеджеры (графические)
+thunar                          - Файловый менеджер для Xfce
+gvfs-mtp                        -> [thunar] Поддержка MTP для Thunar
+tumbler                         -> [thunar] Создание миниатюр изображений для Thunar
 
-zsh
-oh-my-zsh-git                   -> zsh
-zsh-autosuggestions             -> zsh
-zsh-syntax-highlighting         -> zsh
+# Оболочка и улучшения для терминала
+zsh                             - Оболочка Zsh
+oh-my-zsh-git                   -> [zsh] Фреймворк для управления конфигурацией Zsh
+zsh-autosuggestions             -> [zsh] Плагин автодополнения для Zsh
+zsh-syntax-highlighting         -> [zsh] Подсветка синтаксиса для Zsh
 
-rofi
-rofi-greenclip                  -> rofi
-rofi-calc                       -> rofi
-xkb-switch                      -> rofi
-surfraw                         -> rofi
+# Запускаторы приложений
+rofi                            - Запускатор приложений, переключатель окон и замена dmenu
+rofi-greenclip                  -> [rofi] Менеджер буфера обмена для Rofi
+rofi-calc                       -> [rofi] Калькулятор для Rofi
+xkb-switch                      -> [rofi] Переключатель раскладки клавиатуры для Rofi
+surfraw                         -> [rofi] Консольный интерфейс к поисковым системам
 
-vim
-vim-plug                        -> vim
+# Текстовые редакторы
+vim                             - Текстовый редактор
+vim-plug                        -> [vim] Менеджер плагинов для Vim
 
-polybar
-pacman-contrib                  -> polybar
+# Панель статуса
+polybar                         - Панель статуса для X window managers
+pacman-contrib                  -> [polybar] Утилиты для управления пакетами Arch Linux
 
-motion                          -> Видеонаблюдение
+# Видеонаблюдение
+motion                          - Программа для видеонаблюдения
 
-tcpflow                         -> Позволяет отслеживать запросы исходящие из системы
+# Анализ и отслеживание сетевого трафика
+tcpflow                         - Отслеживание и анализ сетевого трафика
 
-# Графика
-nvidia
-nvidia-utils
-lib32-nvidia-utils
-nvidia-settings
-xf86-video-intel
-mesa
-lib32-mesa
+# Графические драйверы
+nvidia                          - Драйвер NVIDIA
+nvidia-utils                    - Утилиты NVIDIA
+lib32-nvidia-utils              - 32-битные утилиты NVIDIA
+nvidia-settings                 - Утилита настройки NVIDIA
+xf86-video-intel                - Драйвер видео Intel для Xorg
+mesa                            - Открытые графические драйверы
+lib32-mesa                      - 32-битные библиотеки для Mesa
 
-# Звук
-pipewire-pulse
-playerctl
-pamixer
-pavucontrol
+# Звуковые утилиты
+pipewire-pulse                  - Звуковой сервер для PipeWire
+playerctl                       - Командная строка для управления мультимедийными проигрывателями
+pamixer                         - Командная строка для управления звуком в PulseAudio
+pavucontrol                     - Графический регулятор громкости PulseAudio
+
 
 # Bluetooth
-bluez
-bluez-utils
-blueman
+bluez                           - Стек протоколов Bluetooth для Linux
+bluez-utils                     - Утилиты для работы с Bluetooth
+blueman                         - Графический интерфейс для управления Bluetooth
 
-ttf-material-design-icons-git
-ttf-typicons
-ttf-liberation
-ttf-font-awesome-5
-noto-fonts-emoji
-ttf-jetbrains-mono
-ttf-ubuntu-font-family
-ttf-dejavu
-terminus-font-ttf
+# Шрифты
+ttf-material-design-icons-git   - Шрифты Material Design Icons
+ttf-typicons                    - Шрифты Typicons
+ttf-liberation                  - Шрифты Liberation
+ttf-font-awesome-5              - Шрифты Font Awesome 5
+noto-fonts-emoji                - Шрифты Noto Emoji
+ttf-jetbrains-mono              - Моноширинный шрифт JetBrains Mono
+ttf-ubuntu-font-family          - Шрифты Ubuntu
+ttf-dejavu                      - Шрифты DejaVu
+terminus-font-ttf               - Шрифт Terminus
